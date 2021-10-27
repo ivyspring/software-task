@@ -1,0 +1,42 @@
+public class soft extends java.lang.Object
+{
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] args;
+        Abc abc, temp$0;
+        int temp$1, temp$2, temp$3, temp$4, temp$5, q, temp$7, temp$9;
+        java.io.PrintStream temp$6, temp$8;
+
+        args := @parameter0: java.lang.String[];
+        temp$0 = new Abc;
+        specialinvoke temp$0.<Abc: void <init>()>();
+        abc = temp$0;
+        temp$1 = 10;
+        abc.<Abc: int m> = temp$1;
+        temp$2 = 3;
+        abc.<Abc: int n> = temp$2;
+        temp$3 = abc.<Abc: int m>;
+        temp$4 = abc.<Abc: int n>;
+        temp$5 = temp$3 + temp$4;
+        abc.<Abc: int m> = temp$5;
+        q = 5;
+        abc.<Abc: int n> = q;
+        temp$6 = <java.lang.System: java.io.PrintStream out>;
+        temp$7 = abc.<Abc: int m>;
+        virtualinvoke temp$6.<java.io.PrintStream: void println(int)>(temp$7);
+        temp$8 = <java.lang.System: java.io.PrintStream out>;
+        temp$9 = abc.<Abc: int n>;
+        virtualinvoke temp$8.<java.io.PrintStream: void println(int)>(temp$9);
+        return;
+    }
+
+    public void <init>()
+    {
+        soft this;
+
+        this := @this: soft;
+        specialinvoke this.<java.lang.Object: void <init>()>();
+        return;
+    }
+}

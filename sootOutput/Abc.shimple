@@ -1,0 +1,14 @@
+class Abc extends java.lang.Object
+{
+    public int m;
+    public int n;
+
+    void <init>()
+    {
+        Abc this;
+
+        this := @this: Abc;
+        specialinvoke this.<java.lang.Object: void <init>()>();
+        return;
+    }
+}
